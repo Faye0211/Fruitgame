@@ -1,0 +1,100 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: pink;
+
+}
+
+#box {
+    width: 920px;
+    height: 600px;
+    margin: 0px auto;
+    position: relative;
+    color: #f2f2f2;
+}
+
+#top {
+    width: 100%;
+    height: 145px;
+}
+
+#top .title {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    line-height: 70px;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+#top .sm {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+
+#top .but {
+    width: 140px;
+    height: 40px;
+    outline: 0;
+    border: 1px solid #241d13;
+    background: #a73f2d;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 15px #7a2a1d;
+    font-size: 16px;
+    margin-left: 390px;
+    cursor: pointer;
+}
+
+#middle {
+    width: 100%;
+    height: 455px;
+    background: #fff;
+    position: absolute;
+    left: 0px;
+    top: 165px;
+    color: #333;
+}
+
+#middle .left {
+    width: 125px;
+    height: 55px;
+    float: left;
+    padding: 10px;
+}
+
+#middle .left p {
+    width: 145px;
+    line-height: 25px;
+}
+
+#middle .right {
+    width: 771px;
+    height: 455px;
+    border-left: 2px solid #333;
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+
+#middle .right img {
+    width: 34px;
+    height: 34px;
+    cursor: pointer;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    display: none;
+}
+#middle p{
+    font-size: 20px;
+}
+#middle span{
+    color:#f10215;
+}
